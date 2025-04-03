@@ -1,7 +1,7 @@
 # Flor de Nata Rosquinhas
 
 <p align="center">
-  <img src="https://yfch1n44obf.ufs.sh/f/jgvud015prqwzvjcqcb8ybn4JN6H9is5Tur3E1JSMPZQOVIQ" alt="Flor de Nata Logo" width="200" />
+  <img src="https://yfch1n4obf.ufs.sh/f/jgvuD015PrQW8PU2o6hIUzeDMoVJXKwbufYQAvrWqZ3Lh6mO" alt="Flor de Nata Logo" width="200" />
 </p>
 
 Uma plataforma de gerenciamento de pedidos profissional para "Flor de Nata Rosquinhas", uma empresa brasileira de rosquinhas artesanais. Esta aplicação web permite que os clientes façam pedidos diretamente através de uma interface intuitiva e integra-se com o WhatsApp para confirmação de pedidos.
@@ -144,4 +144,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para d
 ## 📞 Contato
 
 Para perguntas ou suporte, entre em contato:
-- WhatsApp: [+55 31 99199-4791](https://wa.me/5531991994791)
+- WhatsApp: [+55 31 97129-5198](https://wa.me/5531971295198)
