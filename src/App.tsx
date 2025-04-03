@@ -2,7 +2,6 @@ import React from 'react';
 import { Toaster } from 'react-hot-toast';
 import OrderForm from './components/OrderForm';
 import { Phone, Donut } from 'lucide-react';
-import Logo from './components/Assets/Images/Logo.png';
 
 function App() {
   return (
@@ -13,8 +12,12 @@ function App() {
       <div className="relative">
         <header className="bg-gradient-to-b from-brown-900 to-brown-700 text-white py-6 pb-12">
           <div className="container mx-auto px-4 relative z-10">
-            <div className="flex items-center justify-center gap-2">
-              <Donut className="w-6 h-6 text-pink-300" />
+            <div className="flex items-center justify-center gap-4">
+              <img
+                src="/images/Logo.png"
+                alt="Logo"
+                className="w-12 h-12"
+              />
               <h1 className="text-2xl font-bold">Flor de Nata Rosquinhas</h1>
             </div>
           </div>
@@ -35,7 +38,7 @@ function App() {
           {/* Logo Hero Section */}
           <div className="text-center mb-10">
             <img
-              src={Logo}
+              src="/images/Logo.png"
               alt="Logo Flor de Nata"
               className="w-56 h-56 mx-auto mb-8"
             />
