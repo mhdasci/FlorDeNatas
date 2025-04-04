@@ -1,12 +1,14 @@
 import React from 'react';
 import { Toaster } from 'react-hot-toast';
 import OrderForm from './components/OrderForm';
-import { Phone, Donut } from 'lucide-react';
+import { Phone } from 'lucide-react';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
     <div className="min-h-screen bg-pink-50">
       <Toaster position="top-center" />
+      <SpeedInsights />
       
       {/* Header with Melted Chocolate Effect */}
       <div className="relative">
